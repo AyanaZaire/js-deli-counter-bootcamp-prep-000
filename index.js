@@ -26,5 +26,5 @@ function currentLine(katzDeliLine) {
     lineNumberAndName.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
 
-  return `The line is currently: ${lineNumberAndName}`
+  return `The line is currently:${lineNumberAndName}`
 }
